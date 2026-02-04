@@ -1,0 +1,16 @@
+[project]
+name = "pix-upload"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gradio>=4.0.0",
+    "huggingface-hub>=1.4.0",
+    "imagehash>=4.3.2",
+    "onnxruntime>=1.23.2",
+    "opencv-python>=4.8.0",
+    "torch>=2.0.0",
+    "ultralytics>=8.0.0",
+    "umap-learn>=0.5.11",
+]
